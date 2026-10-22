@@ -1,0 +1,35 @@
+# Allow source files and explicitly listed documentation/configuration only.
+*
+!*/
+!*.R
+!*.r
+!*.py
+!*.sql
+!*.ps1
+!*.md
+!.gitignore
+!.gitattributes
+!manifest.json
+!requirements.txt
+!05_Tables/table_legend.txt
+!03_Analysis/model_specification.json
+!05_Tables/table1/templates/variable_layout.json
+!docs/PRIVATE_INPUT_SCHEMAS.json
+!docs/PUBLIC_COPY_CHANGES.json
+!docs/VALIDATION.json
+# Even source-like files in private/output folders must remain excluded.
+**/private_inputs/**
+**/private_patient_level/**
+**/data/**
+**/data_and_sql/*.csv
+**/derived/**
+**/outputs/**
+**/diagnostics/**
+**/checkpoints/**
+**/node_modules/**
+**/vendor/**
+**/__pycache__/**
+**/.Rhistory
+**/.RData
+**/.Renviron
+**/.env*

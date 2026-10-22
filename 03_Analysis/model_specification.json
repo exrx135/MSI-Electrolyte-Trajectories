@@ -1,0 +1,99 @@
+{
+  "model1": [],
+  "model2": [
+    "age",
+    "male",
+    "bmi",
+    "baseline_egfr_mdrd",
+    "hypertension",
+    "diabetes",
+    "ckd_or_renal_disease"
+  ],
+  "model3": [
+    "age",
+    "male",
+    "bmi",
+    "baseline_egfr_mdrd",
+    "hypertension",
+    "diabetes",
+    "ckd_or_renal_disease",
+    "sepsis_sofa_score",
+    "spo2",
+    "rr",
+    "glucose",
+    "hemoglobin",
+    "wbc",
+    "platelets",
+    "magnesium"
+  ],
+  "auxiliary_only": [
+    "weight_observed_centered",
+    "weight_missing"
+  ],
+  "m": 30,
+  "iterations": 30,
+  "seed": 20261018,
+  "imputation": "within cohort MICE; PMM for continuous, logistic for binary sex; fixed class and observed outcome included as predictors",
+  "poisson": "log link, HC1 robust variance",
+  "pooling": "Rubin rules on log RR with Barnard-Rubin df",
+  "missing_rule": "strictly <30% in each cohort after cleaning",
+  "bounds": {
+    "age": [
+      18,
+      120
+    ],
+    "bmi": [
+      5,
+      150
+    ],
+    "weight_kg": [
+      5,
+      500
+    ],
+    "baseline_egfr_mdrd": [
+      0,
+      300
+    ],
+    "sepsis_sofa_score": [
+      0,
+      24
+    ],
+    "spo2": [
+      0,
+      100
+    ],
+    "rr": [
+      0,
+      100
+    ],
+    "glucose": [
+      0,
+      2500
+    ],
+    "hemoglobin": [
+      0,
+      30
+    ],
+    "wbc": [
+      0,
+      1000
+    ],
+    "platelets": [
+      0,
+      5000
+    ],
+    "magnesium": [
+      0,
+      30
+    ]
+  },
+  "zero_invalid": [
+    "baseline_egfr_mdrd",
+    "glucose",
+    "hemoglobin",
+    "magnesium",
+    "rr",
+    "spo2"
+  ],
+  "auxiliary_encoding": "Observed weight minus cohort median, zero where missing, plus missing-weight indicator. No weight imputation; neither auxiliary enters the regression."
+}

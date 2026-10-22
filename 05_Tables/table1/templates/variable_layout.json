@@ -1,0 +1,147 @@
+[
+  {
+    "section": "Demographics",
+    "variable": "age",
+    "label": "Age, years"
+  },
+  {
+    "section": "Demographics",
+    "variable": "male",
+    "label": "Male sex, n (%)"
+  },
+  {
+    "section": "Demographics",
+    "variable": "bmi",
+    "label": "BMI, kg/m²"
+  },
+  {
+    "section": "Demographics",
+    "variable": "weight_kg",
+    "label": "Weight, kg"
+  },
+  {
+    "section": "Severity Scores",
+    "variable": "sepsis_sofa_score",
+    "label": "SOFA score at sepsis onset"
+  },
+  {
+    "section": "Severity Scores",
+    "variable": "saps3",
+    "label": "SAPS 3 score"
+  },
+  {
+    "section": "Severity Scores",
+    "variable": "charlson_comorbidity_index",
+    "label": "Charlson Comorbidity Index"
+  },
+  {
+    "section": "Laboratory Values",
+    "variable": "baseline_creatinine",
+    "label": "Baseline creatinine, mg/dL"
+  },
+  {
+    "section": "Laboratory Values",
+    "variable": "baseline_egfr_mdrd",
+    "label": "Baseline eGFR, mL/min/1.73 m²"
+  },
+  {
+    "section": "Laboratory Values",
+    "variable": "sodium_t1",
+    "label": "Sodium, mmol/L (0–6 h median)"
+  },
+  {
+    "section": "Laboratory Values",
+    "variable": "potassium_t1",
+    "label": "Potassium, mmol/L (0–6 h median)"
+  },
+  {
+    "section": "Laboratory Values",
+    "variable": "chloride_t1",
+    "label": "Chloride, mmol/L (0–6 h median)"
+  },
+  {
+    "section": "Laboratory Values",
+    "variable": "bicarbonate_t1",
+    "label": "Bicarbonate, mmol/L (0–6 h median)"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "congestive_heart_failure",
+    "label": "Congestive heart failure"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "diabetes",
+    "label": "Diabetes (any)"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "diabetes_without_complication",
+    "label": "Diabetes (without complications)"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "diabetes_with_complication",
+    "label": "Diabetes (with complications)"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "ckd_or_renal_disease",
+    "label": "Chronic kidney / renal disease"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "liver_disease",
+    "label": "Liver disease"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "malignancy",
+    "label": "Malignancy"
+  },
+  {
+    "section": "Comorbidities",
+    "variable": "immunosuppression",
+    "label": "Immunosuppression"
+  },
+  {
+    "section": "Treatment & Interventions (first 24 h)",
+    "variable": "mechanical_ventilation_0_24h",
+    "label": "Mechanical ventilation"
+  },
+  {
+    "section": "Treatment & Interventions (first 24 h)",
+    "variable": "vasopressor_0_24h",
+    "label": "Vasopressor use"
+  },
+  {
+    "section": "MSI (Observation Period)",
+    "variable": "msi_m1",
+    "label": "MSI (0–2 h maximum)"
+  },
+  {
+    "section": "MSI (Observation Period)",
+    "variable": "msi_window_mean",
+    "label": "MSI (mean of observed 2-h maxima)"
+  },
+  {
+    "section": "Outcomes (frozen MAKE30 definitions)",
+    "variable": "make30",
+    "label": "MAKE30"
+  },
+  {
+    "section": "Outcomes (frozen MAKE30 definitions)",
+    "variable": "make30_death",
+    "label": "Death component of MAKE30"
+  },
+  {
+    "section": "Outcomes (frozen MAKE30 definitions)",
+    "variable": "make30_new_krt",
+    "label": "New KRT component of MAKE30"
+  },
+  {
+    "section": "Outcomes (frozen MAKE30 definitions)",
+    "variable": "make30_persistent_kidney_dysfunction",
+    "label": "Persistent kidney dysfunction component"
+  }
+]

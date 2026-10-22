@@ -1,0 +1,9 @@
+# Python modules referenced by the source archive. Not a frozen environment lock.
+numpy
+pandas
+Pillow
+python-docx
+lxml
+reportlab
+pypdfium2
+resvg-py

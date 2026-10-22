@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-22",
+  "selected_source_files": 89,
+  "source_extensions": {
+    ".R": 39,
+    ".json": 2,
+    ".ps1": 2,
+    ".py": 26,
+    ".sql": 20
+  },
+  "static_checks": {
+    "R_files": 39,
+    "Python_files": 27,
+    "SQL_files": 21,
+    "postgresql_parser": "pglast"
+  },
+  "original_sources_unchanged": true,
+  "all_public_checksums_match": true,
+  "credentials_found": [],
+  "embedded_patient_blocks_remaining": false,
+  "identifier_scan_notes": [
+    {
+      "file": "01_SQL/covariates/01_mimic_独立查询.sql",
+      "line": 69,
+      "classification": "Reviewed: native item codes, not patient IDs"
+    },
+    {
+      "file": "02_Trajectory/build_level_shape_support.py",
+      "classification": "Current-user home resolution replaces prior account-specific local path."
+    },
+    {
+      "file": "tools/prepare_private_workspace.py",
+      "classification": "Current-user home resolution replaces prior account-specific rewrite mappings."
+    }
+  ],
+  "contains_patient_data_files": false,
+  "contains_fitted_models": false,
+  "contains_database_credentials": false,
+  "statistical_models_rerun": false,
+  "database_queries_executed": false,
+  "remote_upload_performed": false,
+  "errors": []
+}

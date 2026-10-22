@@ -1,0 +1,37 @@
+[
+  {
+    "code": "01_SQL/covariates/01_mimic_独立查询.sql",
+    "temp_table": "t1_seed",
+    "private_relation": "local_inputs.mimic_baseline_seed",
+    "columns": "unit_id bigint PRIMARY KEY, hospital_id bigint, patient_id text,\n onset_timestamp timestamp, onset_offset numeric,\n assigned_class integer, frozen_baseline jsonb NOT NULL",
+    "removed_rows": 9804
+  },
+  {
+    "code": "01_SQL/covariates/02_eicu_独立查询.sql",
+    "temp_table": "t1_seed",
+    "private_relation": "local_inputs.eicu_baseline_seed",
+    "columns": "unit_id bigint PRIMARY KEY, hospital_id bigint, patient_id text,\n onset_timestamp timestamp, onset_offset numeric,\n assigned_class integer, frozen_baseline jsonb NOT NULL",
+    "removed_rows": 5839
+  },
+  {
+    "code": "01_SQL/covariates/03_sicdb_独立查询.sql",
+    "temp_table": "t1_seed",
+    "private_relation": "local_inputs.sicdb_baseline_seed",
+    "columns": "unit_id bigint PRIMARY KEY, hospital_id bigint, patient_id text,\n onset_timestamp timestamp, onset_offset numeric,\n assigned_class integer, frozen_baseline jsonb NOT NULL",
+    "removed_rows": 3831
+  },
+  {
+    "code": "01_SQL/covariates/SICdb_呼吸频率与体温补提取/01_SICdb_呼吸频率及体温_独立查询.sql",
+    "temp_table": "t1_seed",
+    "private_relation": "local_inputs.sicdb_vitals_seed",
+    "columns": "unit_id bigint PRIMARY KEY,onset_offset numeric,assigned_class integer",
+    "removed_rows": 3831
+  },
+  {
+    "code": "01_SQL/covariates/Charlson_补充材料/01_eICU_Charlson诊断及病史_独立导出.sql",
+    "temp_table": "cci_seed",
+    "private_relation": "local_inputs.eicu_cci_seed",
+    "columns": "unit_id bigint PRIMARY KEY,hospital_id bigint,patient_id text,age numeric",
+    "removed_rows": 5839
+  }
+]

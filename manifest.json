@@ -1,0 +1,732 @@
+[
+  {
+    "file": "01_SQL/cohort_extraction/eICU_FINAL_RAW_ELECTROLYTEQC.sql",
+    "source_relative_path": "SQL/eICU_FINAL_RAW_ELECTROLYTEQC.sql",
+    "execution_relative_path": "SQL/eICU_FINAL_RAW_ELECTROLYTEQC.sql",
+    "role": "final",
+    "sha256": "11950ebbbc72da2e180e40a6748eb1180770c406e1ed5c4557528506dc3bad1c",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/cohort_extraction/MIMIC_FINAL_MAKE30_ELECTROLYTEQC.sql",
+    "source_relative_path": "SQL/MIMIC_FINAL_MAKE30_ELECTROLYTEQC.sql",
+    "execution_relative_path": "SQL/MIMIC_FINAL_MAKE30_ELECTROLYTEQC.sql",
+    "role": "final",
+    "sha256": "f064c90fecf23e7859c45b6766ee0e965062f3987e9272ff76d8209a1a74b936",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/cohort_extraction/SICdb_FINAL_MAKE30_ELECTROLYTEQC.sql",
+    "source_relative_path": "SQL/SICdb_FINAL_MAKE30_ELECTROLYTEQC.sql",
+    "execution_relative_path": "SQL/SICdb_FINAL_MAKE30_ELECTROLYTEQC.sql",
+    "role": "final",
+    "sha256": "ac0ca6cab516ce9effb96ca721c74b1c7b4b2349acea9666a326c5ebfc40fa61",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/survival/生存补导出_eICU_20261014.sql",
+    "source_relative_path": "SQL/生存补导出_eICU_20261014.sql",
+    "execution_relative_path": "SQL/生存补导出_eICU_20261014.sql",
+    "role": "final",
+    "sha256": "f20f65a8ae0d16c4a317c4abcf51cb304a45554fce03de67e49df8fcadbbc3ec",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/survival/生存补导出_MIMIC_20261014.sql",
+    "source_relative_path": "SQL/生存补导出_MIMIC_20261014.sql",
+    "execution_relative_path": "SQL/生存补导出_MIMIC_20261014.sql",
+    "role": "final",
+    "sha256": "228322c1616732905536d00cf29bd16cf18363176eefe87a8a91b47ae1c893c8",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/survival/生存补导出_SICdb_20261014.sql",
+    "source_relative_path": "SQL/生存补导出_SICdb_20261014.sql",
+    "execution_relative_path": "SQL/生存补导出_SICdb_20261014.sql",
+    "role": "final",
+    "sha256": "df0743ebbda6635778bd3a68ec17f1a3b71e4166ea340556f02784c2434fed57",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/01_mimic_独立查询.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/01_mimic_独立查询.sql",
+    "execution_relative_path": "results/table1/data_and_sql/01_mimic_独立查询.sql",
+    "role": "final",
+    "sha256": "2c753769dd8e102e7c94b14cf086da8bb5406d5e90210fee032991d25d3692b7",
+    "public_copy_changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/02_eicu_独立查询.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/02_eicu_独立查询.sql",
+    "execution_relative_path": "results/table1/data_and_sql/02_eicu_独立查询.sql",
+    "role": "final",
+    "sha256": "343f8e8a514c50c85c5c91c387b0580a74fbd9dc01a833565a4624ada3f820b7",
+    "public_copy_changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/03_sicdb_独立查询.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/03_sicdb_独立查询.sql",
+    "execution_relative_path": "results/table1/data_and_sql/03_sicdb_独立查询.sql",
+    "role": "final",
+    "sha256": "1959fb9922649b0017eaa2eaba0d3615d070b051581a68559c58a7c1d7989b26",
+    "public_copy_changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/附加核查_可选/04_mimic_字段说明_可选.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/附加核查_可选/04_mimic_字段说明_可选.sql",
+    "execution_relative_path": "results/table1/data_and_sql/附加核查_可选/04_mimic_字段说明_可选.sql",
+    "role": "final",
+    "sha256": "9884d4f9b1dcf85e09e28f2bb9c61ba7c5e91ffd0695fefec86f577ce12115a1",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/附加核查_可选/05_eicu_字段说明_可选.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/附加核查_可选/05_eicu_字段说明_可选.sql",
+    "execution_relative_path": "results/table1/data_and_sql/附加核查_可选/05_eicu_字段说明_可选.sql",
+    "role": "final",
+    "sha256": "99d216b3d68aa665071f9afa8db095df547980ff8ff3dc60c2acd9d3bfa43344",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/附加核查_可选/06_sicdb_字段说明_可选.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/附加核查_可选/06_sicdb_字段说明_可选.sql",
+    "execution_relative_path": "results/table1/data_and_sql/附加核查_可选/06_sicdb_字段说明_可选.sql",
+    "role": "final",
+    "sha256": "0a344e0681b5e40da71ee4c4c512d14d4ac0de0530168e523df4603be6eec3a9",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/附加核查_可选/07_mimic_来源核查_可选.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/附加核查_可选/07_mimic_来源核查_可选.sql",
+    "execution_relative_path": "results/table1/data_and_sql/附加核查_可选/07_mimic_来源核查_可选.sql",
+    "role": "final",
+    "sha256": "0fc3a173fb65cdb6df12202f3ee1e16638a766e6c465a73093da8a2179065bd0",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/附加核查_可选/08_eicu_来源核查_可选.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/附加核查_可选/08_eicu_来源核查_可选.sql",
+    "execution_relative_path": "results/table1/data_and_sql/附加核查_可选/08_eicu_来源核查_可选.sql",
+    "role": "final",
+    "sha256": "5997c0cd3cfcb58f0f94d224f7a4ac7d35c7315e2323863f3d20a54c86c5fff3",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/附加核查_可选/09_sicdb_来源核查_可选.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/附加核查_可选/09_sicdb_来源核查_可选.sql",
+    "execution_relative_path": "results/table1/data_and_sql/附加核查_可选/09_sicdb_来源核查_可选.sql",
+    "role": "final",
+    "sha256": "b5c2dc8e341da4e25077b14502c4a31b94ec8fe87b8de1d99f9f9a7e1b81a7e7",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/SICdb_呼吸频率与体温补提取/01_SICdb_呼吸频率及体温_独立查询.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/SICdb_呼吸频率与体温补提取/01_SICdb_呼吸频率及体温_独立查询.sql",
+    "execution_relative_path": "results/table1/data_and_sql/SICdb_呼吸频率与体温补提取/01_SICdb_呼吸频率及体温_独立查询.sql",
+    "role": "final",
+    "sha256": "e47def8c8ccb69d05d8cbaf2710bf1b81252dc7a06bdbe7cd77c343f70643cd0",
+    "public_copy_changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/SICdb_呼吸频率与体温补提取/02_SICdb_候选字段字典_独立查询.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/SICdb_呼吸频率与体温补提取/02_SICdb_候选字段字典_独立查询.sql",
+    "execution_relative_path": "results/table1/data_and_sql/SICdb_呼吸频率与体温补提取/02_SICdb_候选字段字典_独立查询.sql",
+    "role": "final",
+    "sha256": "0cb4a59fdc4de3b1aee74c16397d035b3f6157deff25492b3a62d25aff5ac254",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/covariates/Charlson_补充材料/01_eICU_Charlson诊断及病史_独立导出.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/Charlson_补充材料/01_eICU_Charlson诊断及病史_独立导出.sql",
+    "execution_relative_path": "results/table1/data_and_sql/Charlson_补充材料/01_eICU_Charlson诊断及病史_独立导出.sql",
+    "role": "final",
+    "sha256": "2117d63c57f381a1acb4dead2203797c789b1c0d346197fb958ef8e8434080fd",
+    "public_copy_changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "03_Analysis/table1/data_and_sql/Charlson_补充材料/calculate_eicu_cci.py",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/data_and_sql/Charlson_补充材料/calculate_eicu_cci.py",
+    "execution_relative_path": "results/table1/data_and_sql/Charlson_补充材料/calculate_eicu_cci.py",
+    "role": "final",
+    "sha256": "994b906238e316bb2d391b0103b3b2895060f95d49fa7e8632cac66ce9cff52e",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/survival/04_SICdb_补充住院出院状态.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/生存分析_补充数据导出/04_SICdb_补充住院出院状态.sql",
+    "execution_relative_path": "results/生存分析_补充数据导出/04_SICdb_补充住院出院状态.sql",
+    "role": "final",
+    "sha256": "8c2c41bdbc193ec02a9224f847690dd0ab9975a0c12cdd5bc78a5082f7b5eed0",
+    "public_copy_changes": []
+  },
+  {
+    "file": "01_SQL/survival/05_eICU_44例同次住院核查.sql",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/生存分析_补充数据导出/05_eICU_44例同次住院核查.sql",
+    "execution_relative_path": "results/生存分析_补充数据导出/05_eICU_44例同次住院核查.sql",
+    "role": "final",
+    "sha256": "88ac31313b8b053cb2203627ad5cfe1a4fb57065073eafa285f7ff27118a3f72",
+    "public_copy_changes": [
+      "Replaced individual review IDs with a private local input table."
+    ]
+  },
+  {
+    "file": "02_Trajectory/STEP1_数据准备与单指标轨迹/GBMTM_stage1_MIMIC_fix1.R",
+    "source_relative_path": "STEP1_数据准备与单指标轨迹/原始代码/GBMTM_stage1_MIMIC_fix1.R",
+    "execution_relative_path": "STEP1_数据准备与单指标轨迹/原始代码/GBMTM_stage1_MIMIC_fix1.R",
+    "role": "final",
+    "sha256": "643a182cb385d6eff50f5f9b46f5ce5e3b77eadcddd2bbf327c8a2ca5fef0a32",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP1_数据准备与单指标轨迹/V316_STEP5_update_G3.R",
+    "source_relative_path": "STEP1_数据准备与单指标轨迹/原始代码/V316_STEP5_update_G3.R",
+    "execution_relative_path": "STEP1_数据准备与单指标轨迹/原始代码/V316_STEP5_update_G3.R",
+    "role": "final",
+    "sha256": "a5220b728fdac6d8dc76d9ffd7d10da8ad4d670f52c1d91cedb0faff50c123f2",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP1_数据准备与单指标轨迹/GBTM_V267_stage1_full.R",
+    "source_relative_path": "STEP1_数据准备与单指标轨迹/补回原始代码/GBTM_V267_stage1_full.R",
+    "execution_relative_path": "STEP1_数据准备与单指标轨迹/补回原始代码/GBTM_V267_stage1_full.R",
+    "role": "final",
+    "sha256": "b505437c33e07524c80220b7a3fcb2843fe9699365674208cfe2d2d02c886e1c",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP2_联合轨迹模型宽筛/V286_STEP2_windows_cpu_helper_deduplicated_G2G20.ps1",
+    "source_relative_path": "STEP2_联合轨迹模型宽筛/原始代码/V286_STEP2_windows_cpu_helper_deduplicated_G2G20.ps1",
+    "execution_relative_path": "STEP2_联合轨迹模型宽筛/原始代码/V286_STEP2_windows_cpu_helper_deduplicated_G2G20.ps1",
+    "role": "final",
+    "sha256": "0775e88042eb83379e72b4d86a8be078ca0ebcd4b37c12a0436d1fb0ea9b11ee",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP2_联合轨迹模型宽筛/GBMTM_V251_G5G20.R",
+    "source_relative_path": "STEP2_联合轨迹模型宽筛/补回原始代码/GBMTM_V251_G5G20.R",
+    "execution_relative_path": "STEP2_联合轨迹模型宽筛/补回原始代码/GBMTM_V251_G5G20.R",
+    "role": "final",
+    "sha256": "53f4e2072e5b365cb5e26e75324674ba05683675e81b8fbaa1fcecd711e9afad",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP2_联合轨迹模型宽筛/GBMTM_V258_merge_scheduler.R",
+    "source_relative_path": "STEP2_联合轨迹模型宽筛/补回原始代码/GBMTM_V258_merge_scheduler.R",
+    "execution_relative_path": "STEP2_联合轨迹模型宽筛/补回原始代码/GBMTM_V258_merge_scheduler.R",
+    "role": "final",
+    "sha256": "c91a1ba17a37c51b8e22045f1a12884e9e8bd993c22fb02ac8349265b4075d11",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP2_联合轨迹模型宽筛/V258_lowG_screen.R",
+    "source_relative_path": "STEP2_联合轨迹模型宽筛/补回原始代码/V258_lowG_screen.R",
+    "execution_relative_path": "STEP2_联合轨迹模型宽筛/补回原始代码/V258_lowG_screen.R",
+    "role": "final",
+    "sha256": "553f52433f651ced54f1096a0327c44a778b8d5d221fcec32a4a02eb8532b447",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP3_轨迹比较与类别数选择/V292_step2_visual_G2G20.R",
+    "source_relative_path": "STEP3_轨迹比较与类别数选择/原始代码/V292_step2_visual_G2G20.R",
+    "execution_relative_path": "STEP3_轨迹比较与类别数选择/原始代码/V292_step2_visual_G2G20.R",
+    "role": "final",
+    "sha256": "61657be3ca6be6a4cded316d67d9029e96c7147209819a539d747b0a61c1f8ab",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP3_轨迹比较与类别数选择/V294_stage3_G2G20.R",
+    "source_relative_path": "STEP3_轨迹比较与类别数选择/原始代码/V294_stage3_G2G20.R",
+    "execution_relative_path": "STEP3_轨迹比较与类别数选择/原始代码/V294_stage3_G2G20.R",
+    "role": "final",
+    "sha256": "cbee154ff3e65e16f9978fe42ed9bb1b91d1d5af5c93510c214abd683dce1f3a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP4_多起点精修与稳定性验证/V295_step4_2lane_G3G5.R",
+    "source_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V295_step4_2lane_G3G5.R",
+    "execution_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V295_step4_2lane_G3G5.R",
+    "role": "final",
+    "sha256": "6d44b64b4c3e7067ef72659c1323872665ad80f63d3a578e26fe6c6d59779d2a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP4_多起点精修与稳定性验证/V306_STEP4B_parallel_G3.R",
+    "source_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V306_STEP4B_parallel_G3.R",
+    "execution_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V306_STEP4B_parallel_G3.R",
+    "role": "final",
+    "sha256": "1098942a3010a32060b68b12404bd167ed618bfe7448068d02ec6b8c2f8d293e",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP4_多起点精修与稳定性验证/V309_STEP4B_resume_G3.R",
+    "source_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V309_STEP4B_resume_G3.R",
+    "execution_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V309_STEP4B_resume_G3.R",
+    "role": "final",
+    "sha256": "8ed6d746532b472363e309a36984b3bc20c5f972061ec09b3f0f16c942d74348",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP4_多起点精修与稳定性验证/V295_windows_helper.ps1",
+    "source_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V295_windows_helper.ps1",
+    "execution_relative_path": "STEP4_多起点精修与稳定性验证/原始代码/V295_windows_helper.ps1",
+    "role": "final",
+    "sha256": "775ba61cd1fecc51ef48bbea0add6881447209a8a78c05b27e24980aed5a3c26",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP5_冻结分型与预后外部验证/V318_STEP5_score_G3.R",
+    "source_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V318_STEP5_score_G3.R",
+    "execution_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V318_STEP5_score_G3.R",
+    "role": "final",
+    "sha256": "2ce68c096f05d7666b131803ebcac108fd103c4117dab509a3158d3410df5c48",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP5_冻结分型与预后外部验证/V320_STEP5_MIMIC_MAKE30_G3.R",
+    "source_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V320_STEP5_MIMIC_MAKE30_G3.R",
+    "execution_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V320_STEP5_MIMIC_MAKE30_G3.R",
+    "role": "final",
+    "sha256": "602a8cd18234ddeb356e57d841f46addd6c64f9d6c049d6d5071bda6380f5ff0",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP5_冻结分型与预后外部验证/V321_STEP5_eICU_validation_G3.R",
+    "source_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V321_STEP5_eICU_validation_G3.R",
+    "execution_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V321_STEP5_eICU_validation_G3.R",
+    "role": "final",
+    "sha256": "4f576f309caa9c46d82343d89e8402aee2ec2576882f387452da3067a44cf9e1",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/STEP5_冻结分型与预后外部验证/V322_STEP5_SICdb_validation_G3.R",
+    "source_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V322_STEP5_SICdb_validation_G3.R",
+    "execution_relative_path": "STEP5_冻结分型与预后外部验证/原始代码/V322_STEP5_SICdb_validation_G3.R",
+    "role": "final",
+    "sha256": "4f1ae1a8737df02f19bd6211b58309b01cad529e3e10c4cdc9ef2f155c6be24a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream_dependencies/V297_joint_portrait_G3G6.R",
+    "source_relative_path": "MSI/R代码文件/V297_joint_portrait_G3G6.R",
+    "execution_relative_path": "MSI/R代码文件/V297_joint_portrait_G3G6.R",
+    "role": "final",
+    "sha256": "d4e63cafbf3a246e0d351c27a5c50a72d2b16b8981587818490a265c3afb07fb",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream_dependencies/V316_STEP5_replay_G3.R",
+    "source_relative_path": "MSI/提取轨迹文件/GBMTM_stage5_output/V307_STEP5_laptop_kit_G3/V316_STEP5_replay_G3.R",
+    "execution_relative_path": "MSI/提取轨迹文件/GBMTM_stage5_output/V307_STEP5_laptop_kit_G3/V316_STEP5_replay_G3.R",
+    "role": "dependency",
+    "sha256": "c08e29ff16b2276568fa302414ea2b92dd54f4f4555b10415c8544529cfe84c0",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream_dependencies/V316_STEP5_transport_make30_G3.R",
+    "source_relative_path": "MSI/提取轨迹文件/GBMTM_stage5_output/V307_STEP5_laptop_kit_G3/V316_STEP5_transport_make30_G3.R",
+    "execution_relative_path": "MSI/提取轨迹文件/GBMTM_stage5_output/V307_STEP5_laptop_kit_G3/V316_STEP5_transport_make30_G3.R",
+    "role": "dependency",
+    "sha256": "8e1d3b3ee23ce0b0e1ffe7b4a5ded858c5fa0860780cf0dbf88d2c97e468a921",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream/V325_STEP5_scoring_reproduce_G3.R",
+    "source_relative_path": "结果生成代码/V325_STEP5_scoring_reproduce_G3.R",
+    "execution_relative_path": "结果生成代码/V325_STEP5_scoring_reproduce_G3.R",
+    "role": "reproduction_adapter",
+    "sha256": "d5c7f7454b44909a76475f5a01e400da939f23acff51a3db398c301faf37a9ca",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream/V325_STEP5_MIMIC_reproduce_G3.R",
+    "source_relative_path": "结果生成代码/V325_STEP5_MIMIC_reproduce_G3.R",
+    "execution_relative_path": "结果生成代码/V325_STEP5_MIMIC_reproduce_G3.R",
+    "role": "reproduction_adapter",
+    "sha256": "79ffd676236b8026714c4b3a65969b6f4a54041f5956be275081ead46e6c7d00",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream/V325_STEP5_eICU_reproduce_G3.R",
+    "source_relative_path": "结果生成代码/V325_STEP5_eICU_reproduce_G3.R",
+    "execution_relative_path": "结果生成代码/V325_STEP5_eICU_reproduce_G3.R",
+    "role": "reproduction_adapter",
+    "sha256": "4ba01d6031abe2c5a72b612478e44a227ffcf958c30e9b65bc752362c2dd91e4",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/upstream/V325_STEP5_SICdb_reproduce_G3.R",
+    "source_relative_path": "结果生成代码/V325_STEP5_SICdb_reproduce_G3.R",
+    "execution_relative_path": "结果生成代码/V325_STEP5_SICdb_reproduce_G3.R",
+    "role": "reproduction_adapter",
+    "sha256": "779d5182701505b54a744eb50309c3aeb075300cdd1d3736111bbeb30a8153c0",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/Figure3_三库院内死亡累积发生.R",
+    "source_relative_path": "结果生成代码/Figure3_三库院内死亡累积发生.R",
+    "execution_relative_path": "结果生成代码/Figure3_三库院内死亡累积发生.R",
+    "role": "upstream",
+    "sha256": "385e1e60ff7bff036d364c4a2073b8834b9c3aff3b272269bf56f16e551a5609",
+    "public_copy_changes": [
+      "Moved individual SICdb adjudication IDs to a required local CSV, preserving rules and count checks."
+    ]
+  },
+  {
+    "file": "03_Analysis/upstream/Figure3_KM_logrank.R",
+    "source_relative_path": "结果生成代码/Figure3_KM_logrank.R",
+    "execution_relative_path": "结果生成代码/Figure3_KM_logrank.R",
+    "role": "upstream",
+    "sha256": "c3d80d194e1e9f24bebe5bd63b655b1f84d121e9006963a5a0f46dac9d1fd109",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V330_STEP6_publication_figures_G3.R",
+    "source_relative_path": "结果生成代码/V330_STEP6_publication_figures_G3.R",
+    "execution_relative_path": "结果生成代码/V330_STEP6_publication_figures_G3.R",
+    "role": "upstream",
+    "sha256": "0afa9e72197ffe3c35e8ecfce91fcce4d1398ad2bd6f9419ba663cfd1679aade",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V327_STEP6_survival_state_figures_G3.R",
+    "source_relative_path": "结果生成代码/V327_STEP6_survival_state_figures_G3.R",
+    "execution_relative_path": "结果生成代码/V327_STEP6_survival_state_figures_G3.R",
+    "role": "upstream",
+    "sha256": "e1e17fefe00b15c0e8f9ee8edb6e31ef70d2a901d50308218d1e2895cf22d9cf",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V331_MAR_MNAR_fixed_model_sensitivity_G3.R",
+    "source_relative_path": "结果生成代码/V331_MAR_MNAR_fixed_model_sensitivity_G3.R",
+    "execution_relative_path": "结果生成代码/V331_MAR_MNAR_fixed_model_sensitivity_G3.R",
+    "role": "upstream",
+    "sha256": "a9cb32220e7e4c9b0b5e74b560f6aad3951f698d99726c8576886cb2378739b9",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V331_prepare_external_MI_G3.R",
+    "source_relative_path": "结果生成代码/V331_prepare_external_MI_G3.R",
+    "execution_relative_path": "结果生成代码/V331_prepare_external_MI_G3.R",
+    "role": "upstream",
+    "sha256": "2488eb207405d5c1baaea99c2592fba530037b37a66b18f237abfa2264ad8c6d",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V331_延长插补链_G3.R",
+    "source_relative_path": "结果生成代码/V331_延长插补链_G3.R",
+    "execution_relative_path": "结果生成代码/V331_延长插补链_G3.R",
+    "role": "upstream",
+    "sha256": "849624b755617075b2534a8d32ce2c9f93c002e4a402453ede984aa2f699a79b",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V331_链诊断复核_G3.R",
+    "source_relative_path": "结果生成代码/V331_链诊断复核_G3.R",
+    "execution_relative_path": "结果生成代码/V331_链诊断复核_G3.R",
+    "role": "upstream",
+    "sha256": "b5392718a6738c06c34a57749bf0171bfee572974c2eb14608a25d0fd38517c1",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/upstream/V331_链轨迹绘图_G3.R",
+    "source_relative_path": "结果生成代码/V331_链轨迹绘图_G3.R",
+    "execution_relative_path": "结果生成代码/V331_链轨迹绘图_G3.R",
+    "role": "upstream",
+    "sha256": "59a3bb81a50958d498fa7eefc94f66ae06de63289e971a9b4a1b0355a05bd446",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/关联分析_三模型_MICE_RR/code/run_models_final.R",
+    "source_relative_path": "results/03_Final_Code/sources/关联分析_三模型_MICE_RR/code/run_models_final.R",
+    "execution_relative_path": "results/关联分析_三模型_MICE_RR/code/run_models_final.R",
+    "role": "final",
+    "sha256": "2a8260aab0b165cd37bb69f34349027fa1379751a29cc94a346a66f6b19658a5",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/关联分析_三模型_MICE_RR/code/collect_and_validate.py",
+    "source_relative_path": "results/03_Final_Code/sources/关联分析_三模型_MICE_RR/code/collect_and_validate.py",
+    "execution_relative_path": "results/关联分析_三模型_MICE_RR/code/collect_and_validate.py",
+    "role": "final",
+    "sha256": "8ebdd4ddcb5d60efd9f4ea98e2e663955f16554ce5f39fcbae7fd69dfc3f5eaf",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/关联分析_三模型_MICE_RR/code/draw_forest.py",
+    "source_relative_path": "results/03_Final_Code/sources/关联分析_三模型_MICE_RR/code/draw_forest.py",
+    "execution_relative_path": "results/关联分析_三模型_MICE_RR/code/draw_forest.py",
+    "role": "final",
+    "sha256": "979b609dcb8ccc073073ef54691ccf2700ca7f6b12d0c57db9b9c4d90cc80720",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/关联分析_三模型_MICE_RR/code/prepare_inputs.py",
+    "source_relative_path": "results/03_Final_Code/sources/关联分析_三模型_MICE_RR/code/prepare_inputs.py",
+    "execution_relative_path": "results/关联分析_三模型_MICE_RR/code/prepare_inputs.py",
+    "role": "final",
+    "sha256": "e90eb1b0c07de69a75a32688add3228044f6354701bb7f124d20d25ba3a60815",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/补充表_亚组与交互作用/code/run_subgroups_safe.R",
+    "source_relative_path": "results/03_Final_Code/sources/补充表_亚组与交互作用/code/run_subgroups_safe.R",
+    "execution_relative_path": "results/补充表_亚组与交互作用/code/run_subgroups_safe.R",
+    "role": "final",
+    "sha256": "2d6f30cb051d60146f31ea0776dd18a78d394edb8a9a2d12d023e9ac4f4f689a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/补充表_亚组与交互作用/code/build_table.py",
+    "source_relative_path": "results/03_Final_Code/sources/补充表_亚组与交互作用/code/build_table.py",
+    "execution_relative_path": "results/补充表_亚组与交互作用/code/build_table.py",
+    "role": "final",
+    "sha256": "e79304772aa649079cce42177d5e32e7680a55607f03c952a1c8e0cd67cc8748",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/补充表_亚组与交互作用/code/export_word.py",
+    "source_relative_path": "results/03_Final_Code/sources/补充表_亚组与交互作用/code/export_word.py",
+    "execution_relative_path": "results/补充表_亚组与交互作用/code/export_word.py",
+    "role": "final",
+    "sha256": "976bbbeace91e582c63a5fa2a95273499a732dd7b01112ea1d906c1900a1c05f",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/S4_Model3_20261019/run_s4_model3.R",
+    "source_relative_path": "analysis_updates/S4_Model3_20261019/run_s4_model3.R",
+    "execution_relative_path": "analysis_updates/S4_Model3_20261019/run_s4_model3.R",
+    "role": "final",
+    "sha256": "62ed51455b09edcc077e1020befb14543405677786847f89d352f2cc3dcca515",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/S4_Model3_20261019/verify_s4.R",
+    "source_relative_path": "analysis_updates/S4_Model3_20261019/verify_s4.R",
+    "execution_relative_path": "analysis_updates/S4_Model3_20261019/verify_s4.R",
+    "role": "final",
+    "sha256": "6bfabab040605685f9c168080b1e75caea4b324ad872ceec98eca50c588480bf",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/Incremental_prediction_20261021/run_incremental_prediction.R",
+    "source_relative_path": "analysis_updates/Incremental_prediction_20261021/run_incremental_prediction.R",
+    "execution_relative_path": "analysis_updates/Incremental_prediction_20261021/run_incremental_prediction.R",
+    "role": "final",
+    "sha256": "46cfada254e0db54e78daa492119b0e9b18c6fc7bc253166c46711ebab48aade",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/Incremental_prediction_20261021/finish_prediction_outputs.R",
+    "source_relative_path": "analysis_updates/Incremental_prediction_20261021/finish_prediction_outputs.R",
+    "execution_relative_path": "analysis_updates/Incremental_prediction_20261021/finish_prediction_outputs.R",
+    "role": "final",
+    "sha256": "8e3ce23e28f4d68387ff879e615e6949596581981857b13c487f315a061d9dbd",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/Incremental_prediction_20261021/prepare_prediction_inputs.py",
+    "source_relative_path": "analysis_updates/Incremental_prediction_20261021/prepare_prediction_inputs.py",
+    "execution_relative_path": "analysis_updates/Incremental_prediction_20261021/prepare_prediction_inputs.py",
+    "role": "final",
+    "sha256": "cc4e2159c86c3b626c4bd1a24e6d026f377235ade36bc5b659a04cf0985dc888",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/Incremental_prediction_20261021/build_prediction_tables.py",
+    "source_relative_path": "analysis_updates/Incremental_prediction_20261021/build_prediction_tables.py",
+    "execution_relative_path": "analysis_updates/Incremental_prediction_20261021/build_prediction_tables.py",
+    "role": "final",
+    "sha256": "1dfd23f210ef4040531d913db9e08c37c947ab7ff72e1be272d0b4f8576e622a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/RMST_20261021/run_rmst.R",
+    "source_relative_path": "analysis_updates/RMST_20261021/run_rmst.R",
+    "execution_relative_path": "analysis_updates/RMST_20261021/run_rmst.R",
+    "role": "final",
+    "sha256": "c2dc13ad6c43b309da02367fd6cdc3b4cc1853a5d4541e0ad8dcf21240d51abd",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/RMST_20261021/finish_rmst_documents.py",
+    "source_relative_path": "analysis_updates/RMST_20261021/finish_rmst_documents.py",
+    "execution_relative_path": "analysis_updates/RMST_20261021/finish_rmst_documents.py",
+    "role": "final",
+    "sha256": "1d0e6fb540f5288e0799b722b0f79593cc88f818b7002b20d226b8693c0bc042",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/RMST_20261021/prepare_rmst_inputs.py",
+    "source_relative_path": "analysis_updates/RMST_20261021/prepare_rmst_inputs.py",
+    "execution_relative_path": "analysis_updates/RMST_20261021/prepare_rmst_inputs.py",
+    "role": "final",
+    "sha256": "3a35026756e0e86c85873601f0a4affc126f2e91d6c08a4d5ac691202bdcc7d3",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/Baseline_tables_by_class_20261021/aggregate_baseline_tables.py",
+    "source_relative_path": "analysis_updates/Baseline_tables_by_class_20261021/aggregate_baseline_tables.py",
+    "execution_relative_path": "analysis_updates/Baseline_tables_by_class_20261021/aggregate_baseline_tables.py",
+    "role": "final",
+    "sha256": "ed8fa5d9fccd90d5b12164e8002eabbac6acfa0d8d44c81bf71c7382f90391ee",
+    "public_copy_changes": [
+      "Moved individual SICdb adjudication IDs to the same private CSV used for survival analyses."
+    ]
+  },
+  {
+    "file": "05_Tables/Baseline_tables_by_class_20261021/build_baseline_word_tables.py",
+    "source_relative_path": "analysis_updates/Baseline_tables_by_class_20261021/build_baseline_word_tables.py",
+    "execution_relative_path": "analysis_updates/Baseline_tables_by_class_20261021/build_baseline_word_tables.py",
+    "role": "final",
+    "sha256": "0d90847a186db9cccc353e0454b4b3a0dba3c218c95694b45dcda84da2c6e2c2",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/FigureS5_organ_support/analyse_and_plot.R",
+    "source_relative_path": "results/03_Final_Code/FigureS5_organ_support/analyse_and_plot.R",
+    "execution_relative_path": "analysis_updates/FigureS5_organ_support_20261019/analyse_and_plot.R",
+    "role": "final",
+    "sha256": "d7e11ab5aa6f1ec11627e5a544c399458d83bc40bf73926eec60478c567c3127",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/FigureS5_organ_support/build_outputs.py",
+    "source_relative_path": "results/03_Final_Code/FigureS5_organ_support/build_outputs.py",
+    "execution_relative_path": "analysis_updates/FigureS5_organ_support_20261019/build_outputs.py",
+    "role": "final",
+    "sha256": "b2b9464259e8a134c19f5e7ec8a02e022699d32fba6e1ce5b113056f6f615356",
+    "public_copy_changes": []
+  },
+  {
+    "file": "02_Trajectory/build_level_shape_support.py",
+    "source_relative_path": "analysis_updates/build_level_shape_support.py",
+    "execution_relative_path": "analysis_updates/build_level_shape_support.py",
+    "role": "model_selection_support",
+    "sha256": "c2301143181fe922e94e4d7b7e92493538366804ded61c7e39f273ec77bf83ca",
+    "public_copy_changes": []
+  },
+  {
+    "file": "04_Figures/figure1/draw_figure1.py",
+    "source_relative_path": "analysis_updates/JCC_cohort_numbers_20261022/draw_figure1.py",
+    "execution_relative_path": "analysis_updates/JCC_cohort_numbers_20261022/draw_figure1.py",
+    "role": "final",
+    "sha256": "b4d1a35e054a3ed4f7d7cdb6548f0bf380f2104865634c0c00fc96db4f1dc2d3",
+    "public_copy_changes": []
+  },
+  {
+    "file": "04_Figures/figure2/draw_figure2.py",
+    "source_relative_path": "results/03_Final_Code/sources/figure2/draw_figure2.py",
+    "execution_relative_path": "results/figure2/draw_figure2.py",
+    "role": "final",
+    "sha256": "ba2dd64d1472cbd72a4d82348e53aa211124f911d07f5d4b976f0dda9ec6e7d3",
+    "public_copy_changes": []
+  },
+  {
+    "file": "04_Figures/figure3/draw_figure3.py",
+    "source_relative_path": "results/03_Final_Code/sources/figure3/draw_figure3.py",
+    "execution_relative_path": "results/figure3/draw_figure3.py",
+    "role": "final",
+    "sha256": "95a21c70fd10fb6385a051adee7c8821fa6d49b56bd033719e5013bdbc290ce5",
+    "public_copy_changes": []
+  },
+  {
+    "file": "04_Figures/figure5/draw_figure5.py",
+    "source_relative_path": "results/03_Final_Code/sources/figure5/draw_figure5.py",
+    "execution_relative_path": "results/figure5/draw_figure5.py",
+    "role": "final",
+    "sha256": "afe3582e97350b60af04ebd2dac0351dce95f1526ba7abe3026bb3c51b5baee1",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/table1/code/build_table1.py",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/code/build_table1.py",
+    "execution_relative_path": "results/table1/code/build_table1.py",
+    "role": "final",
+    "sha256": "d7c59515d926baba8ef35408107ee1a7f1c4281f62093a2dde68a785e4137e5a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/table1/code/render_table1.py",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/code/render_table1.py",
+    "execution_relative_path": "results/table1/code/render_table1.py",
+    "role": "final",
+    "sha256": "9a672d4b584286a83792b660c291c343830288c9d78e85053e1c22a2871d1a9a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/table1/code/generate_sic_vitals_sql.py",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/code/generate_sic_vitals_sql.py",
+    "execution_relative_path": "results/table1/code/generate_sic_vitals_sql.py",
+    "role": "final",
+    "sha256": "2760583fcfeb66218ce5e9895a12e70a2c05cd119f671b2f7ba1d72159ada946",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/table1/templates/variable_layout.json",
+    "source_relative_path": "历史归档/results_整理前_20261019/results/table1/templates/variable_layout.json",
+    "execution_relative_path": "results/table1/templates/variable_layout.json",
+    "role": "configuration",
+    "sha256": "f5f87c54e64976d8e772a4bac34b85d666e2e680f27266be3e632a91da100e25",
+    "public_copy_changes": [
+      "Retained variable names, sections and display labels; removed obsolete aggregate result cells from the layout template."
+    ]
+  },
+  {
+    "file": "05_Tables/补充材料_20261019/代码/draw_external_states.py",
+    "source_relative_path": "results/03_Final_Code/sources/补充材料_20261019/代码/draw_external_states.py",
+    "execution_relative_path": "results/补充材料_20261019/代码/draw_external_states.py",
+    "role": "supporting_builder",
+    "sha256": "c685c6593172240f6728b9144b5bf1182f9240d8d0a0f0d5dde203d6833c6125",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/候选补充材料_20261018/代码/build_candidate_tables.py",
+    "source_relative_path": "results/03_Final_Code/sources/候选补充材料_20261018/代码/build_candidate_tables.py",
+    "execution_relative_path": "results/候选补充材料_20261018/代码/build_candidate_tables.py",
+    "role": "supporting_builder",
+    "sha256": "edde987462b6feab96cb598719825e9c1880aa5a576f17a202e34c240c7c788a",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/候选补充材料_20261018/代码/shade_middle_blocks.py",
+    "source_relative_path": "results/03_Final_Code/sources/候选补充材料_20261018/代码/shade_middle_blocks.py",
+    "execution_relative_path": "results/候选补充材料_20261018/代码/shade_middle_blocks.py",
+    "role": "supporting_builder",
+    "sha256": "fecbd796f29f27e8810c2d95f3be035b7f24b19651378d7fe52912914954bf79",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/补充材料_20261019/代码/revise_supplements_20261019.py",
+    "source_relative_path": "results/03_Final_Code/sources/补充材料_20261019/代码/revise_supplements_20261019.py",
+    "execution_relative_path": "results/补充材料_20261019/代码/revise_supplements_20261019.py",
+    "role": "supporting_builder",
+    "sha256": "beceb39166f15cc31e1ef8a58a68569d005bcde44fa84a8e6bae1ff5b6d65776",
+    "public_copy_changes": []
+  },
+  {
+    "file": "05_Tables/update_s4_document.py",
+    "source_relative_path": "results/03_Final_Code/update_s4_document.py",
+    "execution_relative_path": "analysis_updates/update_s4_document.py",
+    "role": "supporting_builder",
+    "sha256": "02045f36eb3ee6b4dd585251d5268d6508c936678ccbc3178a634637af789fb0",
+    "public_copy_changes": []
+  },
+  {
+    "file": "03_Analysis/model_specification.json",
+    "source_relative_path": "results/03_Final_Code/model_specification.json",
+    "execution_relative_path": "results/03_Final_Code/model_specification.json",
+    "role": "configuration",
+    "sha256": "e4f8ed503b14bd21d2c42465f9f1c99fdec4d86681f51455a0687a73c400c531",
+    "public_copy_changes": []
+  }
+]

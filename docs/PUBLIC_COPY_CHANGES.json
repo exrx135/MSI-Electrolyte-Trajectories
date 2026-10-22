@@ -1,0 +1,68 @@
+[
+  {
+    "file": "01_SQL/covariates/01_mimic_独立查询.sql",
+    "changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/02_eicu_独立查询.sql",
+    "changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/03_sicdb_独立查询.sql",
+    "changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/SICdb_呼吸频率与体温补提取/01_SICdb_呼吸频率及体温_独立查询.sql",
+    "changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/covariates/Charlson_补充材料/01_eICU_Charlson诊断及病史_独立导出.sql",
+    "changes": [
+      "Replaced embedded patient-level VALUES block with an explicitly required private local table."
+    ]
+  },
+  {
+    "file": "01_SQL/survival/05_eICU_44例同次住院核查.sql",
+    "changes": [
+      "Replaced individual review IDs with a private local input table."
+    ]
+  },
+  {
+    "file": "03_Analysis/upstream/Figure3_三库院内死亡累积发生.R",
+    "changes": [
+      "Moved individual SICdb adjudication IDs to a required local CSV, preserving rules and count checks."
+    ]
+  },
+  {
+    "file": "05_Tables/Baseline_tables_by_class_20261021/aggregate_baseline_tables.py",
+    "changes": [
+      "Moved individual SICdb adjudication IDs to the same private CSV used for survival analyses."
+    ]
+  },
+  {
+    "file": "05_Tables/table1/templates/variable_layout.json",
+    "changes": [
+      "Retained variable names, sections and display labels; removed obsolete aggregate result cells from the layout template."
+    ]
+  },
+  {
+    "file": "02_Trajectory/build_level_shape_support.py",
+    "changes": [
+      "Replaced a hardcoded Windows username path with Path.home() while preserving the entire Desktop/Research/MSI relative directory and file name."
+    ]
+  },
+  {
+    "file": "tools/prepare_private_workspace.py",
+    "changes": [
+      "Changed legacy username-specific Windows path translation to dynamically resolve the current user home directory; private-workspace destination structure is unchanged."
+    ]
+  }
+]
